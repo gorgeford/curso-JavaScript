@@ -38,7 +38,7 @@ if(num1>0){
     }else{
         console.log(`$(num1) es igual a 0 y $(num2) es mayor que 0`);
     
-    }else{
+    
         console.log(`$(num1) es menor que 0 y num 2 es igual a 0`);
     }  
 }else if(num1<0){    
