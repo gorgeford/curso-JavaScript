@@ -19,7 +19,7 @@ cons suma = (num1, num2) => {
 }
 console.log(suma(7,3));
 */
-cons suma = (num1, num2)  => num1+num2
+const suma = (num1, num2)  => num1+num2
 let result = suma(3,6)
 
 console.log(result);
