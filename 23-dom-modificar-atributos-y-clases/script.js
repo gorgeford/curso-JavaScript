@@ -18,5 +18,18 @@ Atributos directos
 const title = document.getElementById('title')
 const name = document.getElementById('name')
 
-console.log(title)
-console.log(name)
+//console.log(name.getElementById('type'))
+//name.setAttribute('type','date')
+
+//title.classList.add('name-title','other-title')
+//title.classList.remove('title')
+
+//if(title.classList.contains('title')) console.log('title tiene la clase title')
+//else console.log('title no tiene la clase title')
+
+//title.classList.replace('title','main-title')
+//console.log(title.innerHTML)
+//console.log(title.textContent)
+console.log(name.value)
+//console.log(title)
+//console.log(name)
