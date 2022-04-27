@@ -24,7 +24,7 @@ switch(figure){
         break
     case 'circle':
         radius=prompt('Introduce el radio del circulo')
-        console.log(`el area del circulo es ${Math.PI * Math.pow (radius.2)}`);
+        console.log(`el area del circulo es ${Math.PI * Math.pow (radius/2)}`);
         break
     default: console.log(`la figura geometrica no es valida`);
 
