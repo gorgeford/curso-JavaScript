@@ -13,32 +13,47 @@ Finalmente, el programa escribe por consola el precio del helado con el topping 
 
 
     let helado = prompt('Cuantos helados quieres comprar')
+    sumaTotal = 0
 
 
 
     for (var i = 1; i<= helado; i++){
 
         let valor = prompt(`sin topping(1): ${1.90}, con topping: (2)oreo ${1},(3)kitkat ${1.50},(4)brownie ${0.75}, (5)lacasitos ${1.95} seleccione una opción`)
+         
+        sin_topping = 0
+        topping_oreo = 0
+        topping_kitkat = 0
+        topping_brownie = 0
+        topping_lacasitos = 0
+
+        
+
 
         switch (valor){
             case '1': 
              valorHelado  = 'sin topping ${1.90}'
+             sin_topping = 1.90
              break
 
             case '2':
              valorHelado  = 'oreo ${1}'
+             topping_oreo = 1
              break
 
             case '3':
              valorHelado = 'kitkat ${1.50}'
+             topping_kitkat = 1.50
              break
 
             case '4':
              valorHelado = 'brownie ${0.75}'
+             topping_brownie = 0.75
              break
 
             case '5':
              valorHelado = 'lacasitos ${1.95}'
+             topping_lacasitos = 1.95
              break
 
             default: alert(`no tenemos este topping, lo sentimos(el prescio sin topping es:1.90)`)
@@ -47,8 +62,11 @@ Finalmente, el programa escribe por consola el precio del helado con el topping 
 
         }
 
-        
+        sumaTotal = sumaTotal + sin_topping + topping_oreo + topping_kitkat + topping_brownie + topping_lacasitos
         console.log(valorHelado);
+        
 
 
     }
+
+    console.log('el total de la compra es:', sumaTotal);
