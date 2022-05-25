@@ -2,10 +2,10 @@
 // Sum a and b
 // Return the result
 
-function myFunction(a, b){
+function suma(a, b){
 
 return a+b 
 
 }
 
-console.log(7+7);
+console.log(suma(3,6));
