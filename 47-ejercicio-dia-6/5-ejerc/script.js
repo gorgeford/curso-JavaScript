@@ -9,4 +9,4 @@ function numberToString(num) {
    return String(num);
   }
 
-  console.log(numberToString("444"));
+  console.log(numberToString(444));
